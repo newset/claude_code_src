@@ -4,6 +4,14 @@
 
 该版本发布到 npm 时附带了可还原源码的 source map，我基于其中的 `sources` 和 `sourcesContent` 将项目重新整理为可直接阅读的源码目录，方便研究 Claude Code 的 CLI 架构、命令系统、Ink TUI 组件组织方式，以及 MCP / 插件 / skills 等能力的实现。
 
+claude code 已经从 npm 中下架了 2.1.88 的包
+
+但是在腾讯的 npm 镜像中还有缓存，大家可以使用下面的命令 clone
+
+```shell
+npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz
+```
+
 ## 说明
 
 - 版本来源：`@anthropic-ai/claude-code@2.1.88`
